@@ -1,0 +1,29 @@
+.newFile {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  padding-left: 15px;
+}
+
+.newFile__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px 0px 7px;
+  border-radius: 60px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  cursor: pointer;
+}
+
+.newFile__container .plus {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.newFile__container > p {
+  color: rgb(110, 110, 110);
+  font-weight: 600;
+  margin-left: 2px;
+}

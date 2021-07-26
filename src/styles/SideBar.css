@@ -1,0 +1,25 @@
+.sideBar {
+  width: 250px;
+  height: 10vh;
+  margin-right: 8px;
+}
+
+.sideBar__itemsContainer > hr {
+  margin: 10px 0;
+  width: 105%;
+}
+
+hr.line {
+  height: 1px;
+  border-width: 0;
+  color: rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+}
+
+.icon {
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 27px;
+  height: 27px;
+}

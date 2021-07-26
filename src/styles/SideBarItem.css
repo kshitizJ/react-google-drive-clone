@@ -1,0 +1,32 @@
+.sideBarItems {
+  display: flex;
+  padding: 1px 0;
+  border-radius: 0 100px 100px 0;
+  align-items: center;
+  color: rgb(110, 110, 110);
+  font-weight: 600;
+  width: 105%;
+}
+
+.sideBarItems:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.sideBarItems.active {
+  background: #e8f0fe;
+  color: rgb(0, 98, 190);
+}
+
+.sideBarItem__arrow {
+  width: 28px;
+}
+
+.sideBarItem__main {
+  display: flex;
+  align-items: center;
+}
+
+.sideBarItem__main > p {
+  margin-left: 12px;
+}
